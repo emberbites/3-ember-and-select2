@@ -1,0 +1,11 @@
+<h1>What is your name?</h1>
+
+<p>
+  Please tell me your name: {{view EmberStore.NameField action='discoverName'}}
+</p>
+
+{{#if name}}
+<h3>
+  Oh, <em>you're</em> {{name}}!
+</h3>
+{{/if}}
