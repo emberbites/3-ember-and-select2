@@ -1,3 +1,3 @@
-EmberStore.NameField = Ember.TextField.extend
+EmberStore.NameField = Em.TextField.extend
   change: (e) ->
     this.sendAction('action', this.value)
