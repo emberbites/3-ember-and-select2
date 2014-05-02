@@ -4,6 +4,7 @@
 #= require ember-data
 #= require_self
 #= require ember_store
+#= require select2
 
 # for more details see: http://emberjs.com/guides/application/
 window.EmberStore = Ember.Application.create
